@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sleeping ... zZz 4<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> link text: Forgot ID/Password?] ---> Actual text : Forgot ID/Password?. Expected text : Forgot ID/Password?<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.linkText: Forgot ID/Password?'<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[123666 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: acctNumber]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[2345 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> xpath: //input[@name='ssNumberField']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: verifyCustomerAccount]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Sleeping ... zZz 3<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-14T09:17:18 EST" name="Default suite" finished-at="2023-12-14T09:17:55 EST" duration-ms="36904">
+    <groups>
+    </groups>
+    <test started-at="2023-12-14T09:17:18 EST" name="Default test" finished-at="2023-12-14T09:17:55 EST" duration-ms="36904">
+      <class name="pages.ForgetUserIdandPasswordTest">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:18 EST" name="initialReporting" finished-at="2023-12-14T09:17:18 EST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialReporting -->
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:18 EST" name="initialTest" finished-at="2023-12-14T09:17:18 EST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.ForgetUserIdandPasswordTest.accountNumberSSnNumberContinue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:18 EST" name="setUp" finished-at="2023-12-14T09:17:20 EST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accountNumberSSnNumberContinue()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:20 EST" name="accountNumberSSnNumberContinue" finished-at="2023-12-14T09:17:55 EST" duration-ms="34506" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sleeping ... zZz 4<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> link text: Forgot ID/Password?] ---> Actual text : Forgot ID/Password?. Expected text : Forgot ID/Password?<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.linkText: Forgot ID/Password?'<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[123666 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: acctNumber]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[2345 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> xpath: //input[@name='ssNumberField']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: verifyCustomerAccount]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Sleeping ... zZz 3<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- accountNumberSSnNumberContinue -->
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:55 EST" name="afterEachTest" finished-at="2023-12-14T09:17:55 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pages.ForgetUserIdandPasswordTest.accountNumberSSnNumberContinue()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=accountNumberSSnNumberContinue status=SUCCESS method=ForgetUserIdandPasswordTest.accountNumberSSnNumberContinue()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe] output=Sleeping ... zZz 4<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:55 EST" name="tearUp" finished-at="2023-12-14T09:17:55 EST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pages.ForgetUserIdandPasswordTest@4a003cbe]" started-at="2023-12-14T09:17:55 EST" name="publishReport" finished-at="2023-12-14T09:17:55 EST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- pages.ForgetUserIdandPasswordTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
