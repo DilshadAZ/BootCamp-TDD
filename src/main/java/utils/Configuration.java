@@ -3,30 +3,47 @@ package utils;
 import java.io.IOException;
 import java.util.Properties;
 
+import constants.Profile;
+
 public class Configuration {
- private Properties properties = new Properties();
- 
- public Configuration() {
-	 loadProperty();
- }
+	// The Properties class represents a persistent set of properties.
+	private Properties properties = new Properties();
+	
+	String generalConfig = "configuration.properties";
+	String browserStackConfig = "browserstack.properties";
 
-public void loadProperty() {
-	properties = new Properties();
-	 
-	 try {
-		properties.load(getClass().getClassLoader().getResourceAsStream("Config.properties"));
-	} catch (IOException e) {
-		e.printStackTrace();
+	// This is a default Constructor
+	// Why I am putting loadProperty () method inside constructor
+	// because when Configuration class is instantiated (when it will create object)
+	// then default Constructor will be initialized, the method loadproperty() present inside
+	// the Constructor will also be initialized
+	public Configuration(Profile profile) {
 		
+		switch (profile) {
+		case GENERAL:
+			loadProperty(generalConfig);
+			break;
+		case BROWSERSTACK:
+			loadProperty(browserStackConfig);
+			break;
+		default:
+			break;
+		}
 	}
-}
-		public String getProperties(String Key ) {
-			return properties.getProperty(Key);
-}
-
-
+		
+	public void loadProperty (String Profile) {
+			try {
+			properties.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// Individual return type method created
+	public String getProperties(String key) {
+		return properties.getProperty(key);
 
 
 	
-
+	}
 }

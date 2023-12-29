@@ -3,17 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pages.ForgetUserIdandPasswordTest">
+      <class name="pages.HomeLoansTest">
         <methods>
           <include name="initialTest"/>
-          <include name="accountNumberSSnNumberContinue"/>
           <include name="tearUp"/>
           <include name="afterEachTest"/>
           <include name="publishReport"/>
           <include name="initialReporting"/>
+          <include name="homeLoanValidationTest"/>
+          <include name="beforeClassSetUp"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- pages.ForgetUserIdandPasswordTest -->
+      </class> <!-- pages.HomeLoansTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

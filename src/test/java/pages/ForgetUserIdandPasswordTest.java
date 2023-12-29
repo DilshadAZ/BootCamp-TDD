@@ -8,7 +8,7 @@ public class ForgetUserIdandPasswordTest extends BaseClass {
 	@Test
 	
 	public void accountNumberSSnNumberContinue( ) {
-		//forgetUserIdandPassword.forgotIDandPassword;
+		
 		forgetUserIdandPassword.directingToForgetUserIDandPassword();
 		forgetUserIdandPassword.accountNumberSSnNumberContinue();
 	}

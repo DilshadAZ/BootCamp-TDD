@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Bank of America Test Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Dec 14, 2023 09:17:18 AM</span></a>
+<a href="#"><span class="badge badge-primary">Dec 29, 2023 06:42:55 PM</span></a>
 </li>
 </ul>
 </div>
@@ -71,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,37 +79,37 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">pages.ForgetUserIdandPasswordTest</a>
+<a class="dropdown-item" href="#">pages.HomeLoansTest</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
-          tag="pages.ForgetUserIdandPasswordTest"
+          tag="pages.HomeLoansTest"
           device="">
           <div class="test-detail">
-            <p class="name">accountNumberSSnNumberContinue</p>
+            <p class="name">homeLoanValidationTest</p>
             <p class="text-sm">
-              <span>9:17:18 AM</span> / <span>00:00:36:647</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>6:42:55 PM</span> / <span>00:00:51:225</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">accountNumberSSnNumberContinue</h5>
-<span class='badge badge-success'>12.14.2023 9:17:18 AM</span>
-<span class='badge badge-danger'>12.14.2023 9:17:55 AM</span>
-<span class='badge badge-default'>00:00:36:647</span>
+<h5 class="test-status text-fail">homeLoanValidationTest</h5>
+<span class='badge badge-success'>12.29.2023 6:42:55 PM</span>
+<span class='badge badge-danger'>12.29.2023 6:43:46 PM</span>
+<span class='badge badge-default'>00:00:51:225</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">pages.ForgetUserIdandPasswordTest</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">pages.HomeLoansTest</span></div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -117,72 +117,44 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:24 AM</td>
+        <td>6:43:02 PM</td>
         <td>
-          Sleeping ... zZz 4
+          [[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:24 AM</td>
+        <td>6:43:03 PM</td>
         <td>
-          [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> link text: Forgot ID/Password?] ---> Actual text : Forgot ID/Password?. Expected text : Forgot ID/Password?
+          [[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:45 AM</td>
+        <td>6:43:05 PM</td>
         <td>
-          Proxy element for: DefaultElementLocator 'By.linkText: Forgot ID/Password?'<---------> has been clicked
+          [[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> link text: Mortgage]<---------> has been clicked
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:46 AM</td>
+        <td>6:43:05 PM</td>
         <td>
-          123666 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: acctNumber]
+          Current URL is : https://www.bankofamerica.com/mortgage/home-mortgage/
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:49 AM</td>
+        <td>6:43:26 PM</td>
         <td>
-          Sleeping ... zZz 3
+          Proxy element for: DefaultElementLocator 'By.id: applyNow'<---------> has been clicked
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:49 AM</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>6:43:46 PM</td>
         <td>
-          2345 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> xpath: //input[@name='ssNumberField']]
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:52 AM</td>
-        <td>
-          Sleeping ... zZz 3
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:52 AM</td>
-        <td>
-          [[ChromeDriver: chrome on windows (0ad71964207d49097455967827b3e49b)] -> id: verifyCustomerAccount]<---------> has been clicked
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>9:17:55 AM</td>
-        <td>
-          Sleeping ... zZz 3
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>9:17:55 AM</td>
-        <td>
-          Test PASSED
+          Test FAILED
         </td>
       </tr>
   </tbody>
@@ -210,15 +182,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">pages.ForgetUserIdandPasswordTest</p>
+<p class="name">pages.HomeLoansTest</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>pages.ForgetUserIdandPasswordTest</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>pages.HomeLoansTest</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -229,11 +201,11 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>09:17:18 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:42:55 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='1'>accountNumberSSnNumberContinue</a>
+<a href="#" class="linked" test-id='1' id='1'>homeLoanValidationTest</a>
 </td>
 </tr>
 </tbody>
@@ -253,25 +225,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Dec 14, 2023 09:17:18 AM</h3>
+<h3>Dec 29, 2023 06:42:55 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Dec 14, 2023 09:17:55 AM</h3>
+<h3>Dec 29, 2023 06:43:47 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -287,12 +259,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> tests passed
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> tests failed,
+<small data-tooltip='100%'><b>1</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -310,10 +282,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='10%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>9</b> others
+<small data-tooltip='16%'><b>1</b> events failed,
+<b data-tooltip='%'>5</b> others
 </small>
 </div>
 </div>
@@ -329,7 +301,7 @@
 </div></div>
 <script>
 var timeline = {
-"accountNumberSSnNumberContinue":36.647
+"homeLoanValidationTest":51.225
 };
 </script>
 <div class="row">
@@ -339,12 +311,12 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>pages.ForgetUserIdandPasswordTest</td>
+<td>pages.HomeLoansTest</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -385,8 +357,8 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -402,11 +374,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
-failEvents: 0,
+passEvents: 0,
+failEvents: 1,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 9
+infoEvents: 5
 };
 </script>        </div>
       </div>
