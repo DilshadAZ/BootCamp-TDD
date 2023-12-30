@@ -8,5 +8,6 @@ public class HomeLoansTest extends BaseClass {
 	@Test(enabled = true)
 	public void homeLoanValidationTest() {
 		homeLoans.homeLoanValidation();
-	}
+		homeLoans.firstNameValidation();
+}
 }

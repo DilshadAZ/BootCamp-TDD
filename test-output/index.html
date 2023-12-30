@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1744708220\testng-customsuite.xml</span>
+                    <span>C:\Users\Asus\AppData\Local\Temp\testng-eclipse-524495525\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,15 +129,15 @@
                   <a name="homeLoanValidationTest">
                   </a> <!-- homeLoanValidationTest -->
                   <span class="method-name">homeLoanValidationTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#applyNow&quot;}
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=120.0.6099.130)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.17&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [983260415cc9686b81950bad4fc26a20, findElement {using=id, value=applyNow}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49477}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49477/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 983260415cc9686b81950bad4fc26a20
+Command: [669ffae7cc0ba6c38c0883c85f2ae018, sendKeysToElement {id=A808B6238DE6DF508DA13AB39BE78F12_element_14850, value=[Ljava.lang.CharSequence;@7d199c68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53436/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -&gt; id: streetNumber]
+Session ID: 669ffae7cc0ba6c38c0883c85f2ae018
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -149,15 +149,17 @@ Session ID: 983260415cc9686b81950bad4fc26a20
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getAttribute(Unknown Source)
-	at pages.HomeLoans.homeLoanValidation(HomeLoans.java:74)
-	at pages.HomeLoansTest.homeLoanValidationTest(HomeLoansTest.java:10)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
+	at common.CommonActions.inputTextThenClickTab(CommonActions.java:74)
+	at pages.HomeLoans.firstNameValidation(HomeLoans.java:204)
+	at pages.HomeLoansTest.homeLoanValidationTest(HomeLoansTest.java:11)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -195,7 +197,7 @@ Session ID: 983260415cc9686b81950bad4fc26a20
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-1744708220\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asus\AppData\Local\Temp\testng-eclipse-524495525\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -252,12 +254,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'homeLoanValidationTest')
 data.setCell(0, 2, 'pages.HomeLoansTest')
-data.setCell(0, 3, 48383);
+data.setCell(0, 3, 110781);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -271,11 +273,48 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">homeLoanValidationTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (983260415cc9686b81950bad4fc26a20)] -> link text: Mortgage]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> link text: Mortgage]<---------> has been clicked<br></span>
                 <span class="reporter-method-output">Current URL is : https://www.bankofamerica.com/mortgage/home-mortgage/<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: applyNow]<---------> is Displayed, true<br></span>
                 <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.id: applyNow'<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/landing/#landing<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: dmaFlowButton]<---------> is Displayed, true<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.id: dmaFlowButton'<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#purchase-gating-question<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: propertyContractYes]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: isBofaCustomer-no]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: signInContinueButton]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#bac-sign-in<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Your information']]<---------> is Displayed, false<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> We can Enter : 32 Character in the field which was similar with the Expected as: 32<br></span>
+                <span class="reporter-method-output">The Text from the [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> is cleared<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">Dilshad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] and then clicked by Tab Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">DAZ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: middleName] and then clicked by Tab Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">Zannat <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: lastName] and then clicked by Tab Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: suffix]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Sr']]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneNumber]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneType]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Mobile']]<---------> has been clicked<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 3<br></span>
+                <span class="reporter-method-output">shshsh@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: email] and then clicked by Tab Key<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
+                <span class="reporter-method-output">45 Southwest 9th Street <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: locationField]<br></span>
+                <span class="reporter-method-output">Sleeping ... zZz 2<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -300,33 +339,33 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassSetUp</span>
-                <span class="method-start">388 ms</span>
+                <span class="method-start">250 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">initialTest(public void pages.HomeLoansTest.homeLoanValidationTest())</span>
-                <span class="method-start">409 ms</span>
+                <span class="method-start">261 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">427 ms</span>
+                <span class="method-start">269 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">homeLoanValidationTest</span>
-                <span class="method-start">3247 ms</span>
+                <span class="method-start">2934 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTest(public void pages.HomeLoansTest.homeLoanValidationTest(), [TestResult name=homeLoanValidationTest st...)</span>
-                <span class="method-start">51639 ms</span>
+                <span class="method-start">113740 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">51640 ms</span>
+                <span class="method-start">113743 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">publishReport</span>
-                <span class="method-start">52066 ms</span>
+                <span class="method-start">114120 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
