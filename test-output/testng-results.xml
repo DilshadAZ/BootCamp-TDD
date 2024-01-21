@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> link text: Mortgage]<---------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> link text: Mortgage]<---------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Current URL is : https://www.bankofamerica.com/mortgage/home-mortgage/<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: applyNow]<---------> is Displayed, true<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: applyNow]<---------> is Displayed, true<br>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.id: applyNow'<---------> has been clicked<br>]]>
@@ -26,122 +23,101 @@
       <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/landing/#landing<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: dmaFlowButton]<---------> is Displayed, true<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: dmaFlowButton]<---------> is Displayed, true<br>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.id: dmaFlowButton'<---------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
-    </line>
-    <line>
       <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#purchase-gating-question<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: propertyContractYes]<---------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: propertyContractYes]<---------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 3<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: isBofaCustomer-no]<---------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: isBofaCustomer-no]<---------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: signInContinueButton]<---------> has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: signInContinueButton]<---------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#bac-sign-in<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Your information']]<---------> is Displayed, false<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Your information']]<---------> is Displayed, false<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> We can Enter : 32 Character in the field which was similar with the Expected as: 32<br>]]>
+    </line>
+    <line>
+      <![CDATA[The Text from the [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> is cleared<br>]]>
+    </line>
+    <line>
+      <![CDATA[Dilshad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] and then clicked by Tab Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[DAZ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: middleName] and then clicked by Tab Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[Zannat <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: lastName] and then clicked by Tab Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: suffix]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //option[text()='Sr']]<---------> has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[743090789 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: phoneNumber]<br>]]>
+    </line>
+    <line>
+      <![CDATA[shshsh@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: email] and then clicked by Tab Key<br>]]>
+    </line>
+    <line>
+      <![CDATA[45 Southwest 9th Street <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: locationField]<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 3<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
+      <![CDATA[989121234 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: ssn]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> We can Enter : 32 Character in the field which was similar with the Expected as: 32<br>]]>
+      <![CDATA[09132000 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: dob] and then clicked by Tab Key<br>]]>
     </line>
     <line>
-      <![CDATA[The Text from the [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> is cleared<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
-    </line>
-    <line>
-      <![CDATA[Dilshad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] and then clicked by Tab Key<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
-    </line>
-    <line>
-      <![CDATA[DAZ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: middleName] and then clicked by Tab Key<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: haveDependentsNo]<---------> has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Sleeping ... zZz 3<br>]]>
     </line>
     <line>
-      <![CDATA[Zannat <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: lastName] and then clicked by Tab Key<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: isMLOExistNo]<---------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: consentToContact]<---------> has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: suffix]<---------> has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Sr']]<---------> has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneNumber]<---------> has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneType]<---------> has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Mobile']]<---------> has been clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 3<br>]]>
-    </line>
-    <line>
-      <![CDATA[shshsh@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: email] and then clicked by Tab Key<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
-    </line>
-    <line>
-      <![CDATA[45 Southwest 9th Street <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: locationField]<br>]]>
-    </line>
-    <line>
-      <![CDATA[Sleeping ... zZz 2<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: personalInformationContinueButton]<---------> has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-30T14:42:21 EST" name="Default suite" finished-at="2023-12-30T14:44:15 EST" duration-ms="113826">
+  <suite started-at="2024-01-21T13:58:42 EST" name="Default suite" finished-at="2024-01-21T13:59:44 EST" duration-ms="62379">
     <groups>
     </groups>
-    <test started-at="2023-12-30T14:42:21 EST" name="Default test" finished-at="2023-12-30T14:44:15 EST" duration-ms="113826">
+    <test started-at="2024-01-21T13:58:42 EST" name="Default test" finished-at="2024-01-21T13:59:44 EST" duration-ms="62379">
       <class name="pages.HomeLoansTest">
-        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:42:21 EST" name="initialReporting" finished-at="2023-12-30T14:42:21 EST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="initialReporting()[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:58:42 EST" name="initialReporting" finished-at="2024-01-21T13:58:42 EST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialReporting -->
-        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:42:21 EST" name="beforeClassSetUp" finished-at="2023-12-30T14:42:21 EST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:58:42 EST" name="beforeClassSetUp" finished-at="2024-01-21T13:58:42 EST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetUp -->
-        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:42:21 EST" name="initialTest" finished-at="2023-12-30T14:42:21 EST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="initialTest(java.lang.reflect.Method)[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:58:42 EST" name="initialTest" finished-at="2024-01-21T13:58:42 EST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +128,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialTest -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:42:21 EST" name="setUp" finished-at="2023-12-30T14:42:24 EST" duration-ms="2665" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:58:42 EST" name="setUp" finished-at="2024-01-21T13:58:44 EST" duration-ms="2116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,100 +139,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeLoanValidationTest()[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:42:24 EST" name="homeLoanValidationTest" finished-at="2023-12-30T14:44:15 EST" duration-ms="110781" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [669ffae7cc0ba6c38c0883c85f2ae018, sendKeysToElement {id=A808B6238DE6DF508DA13AB39BE78F12_element_14850, value=[Ljava.lang.CharSequence;@7d199c68}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53436/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: streetNumber]
-Session ID: 669ffae7cc0ba6c38c0883c85f2ae018]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=120.0.6099.130)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [669ffae7cc0ba6c38c0883c85f2ae018, sendKeysToElement {id=A808B6238DE6DF508DA13AB39BE78F12_element_14850, value=[Ljava.lang.CharSequence;@7d199c68}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53436/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: streetNumber]
-Session ID: 669ffae7cc0ba6c38c0883c85f2ae018
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy19.sendKeys(Unknown Source)
-at common.CommonActions.inputTextThenClickTab(CommonActions.java:74)
-at pages.HomeLoans.firstNameValidation(HomeLoans.java:204)
-at pages.HomeLoansTest.homeLoanValidationTest(HomeLoansTest.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="homeLoanValidationTest()[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:58:44 EST" name="homeLoanValidationTest" finished-at="2024-01-21T13:59:44 EST" duration-ms="59916" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Explore home loans']] ---> Actual text : Explore home loans. Expected text : Explore home loans<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> link text: Mortgage]<---------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> link text: Mortgage]<---------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Current URL is : https://www.bankofamerica.com/mortgage/home-mortgage/<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: applyNow]<---------> is Displayed, true<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: applyNow]<---------> is Displayed, true<br>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.id: applyNow'<---------> has been clicked<br>]]>
@@ -265,110 +163,89 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/landing/#landing<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: dmaFlowButton]<---------> is Displayed, true<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: dmaFlowButton]<---------> is Displayed, true<br>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.id: dmaFlowButton'<---------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
-            </line>
-            <line>
               <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#purchase-gating-question<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: propertyContractYes]<---------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: propertyContractYes]<---------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 3<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: isBofaCustomer-no]<---------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: isBofaCustomer-no]<---------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: signInContinueButton]<---------> has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: signInContinueButton]<---------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Current URL is : https://secure.bankofamerica.com/digital-mortgage-application/mortgage/#bac-sign-in<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Your information']]<---------> is Displayed, false<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Your information']]<---------> is Displayed, false<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> We can Enter : 32 Character in the field which was similar with the Expected as: 32<br>]]>
+            </line>
+            <line>
+              <![CDATA[The Text from the [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> is cleared<br>]]>
+            </line>
+            <line>
+              <![CDATA[Dilshad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //input[@class='first-name-field spa-input-text']] and then clicked by Tab Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[DAZ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: middleName] and then clicked by Tab Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[Zannat <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: lastName] and then clicked by Tab Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: suffix]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //option[text()='Sr']]<---------> has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[743090789 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: phoneNumber]<br>]]>
+            </line>
+            <line>
+              <![CDATA[shshsh@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: email] and then clicked by Tab Key<br>]]>
+            </line>
+            <line>
+              <![CDATA[45 Southwest 9th Street <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: locationField]<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 3<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
+              <![CDATA[989121234 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: ssn]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> We can Enter : 32 Character in the field which was similar with the Expected as: 32<br>]]>
+              <![CDATA[09132000 <-----> has been put into <-----> [[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: dob] and then clicked by Tab Key<br>]]>
             </line>
             <line>
-              <![CDATA[The Text from the [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] ---> is cleared<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
-            </line>
-            <line>
-              <![CDATA[Dilshad <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //input[@class='first-name-field spa-input-text']] and then clicked by Tab Key<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
-            </line>
-            <line>
-              <![CDATA[DAZ <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: middleName] and then clicked by Tab Key<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: haveDependentsNo]<---------> has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Sleeping ... zZz 3<br>]]>
             </line>
             <line>
-              <![CDATA[Zannat <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: lastName] and then clicked by Tab Key<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: isMLOExistNo]<---------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: consentToContact]<---------> has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: suffix]<---------> has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Sr']]<---------> has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneNumber]<---------> has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: phoneType]<---------> has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //option[text()='Mobile']]<---------> has been clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 3<br>]]>
-            </line>
-            <line>
-              <![CDATA[shshsh@gmail.com <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: email] and then clicked by Tab Key<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
-            </line>
-            <line>
-              <![CDATA[45 Southwest 9th Street <-----> has been put into <-----> [[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> id: locationField]<br>]]>
-            </line>
-            <line>
-              <![CDATA[Sleeping ... zZz 2<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> id: personalInformationContinueButton]<---------> has been clicked<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- homeLoanValidationTest -->
-        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:44:15 EST" name="afterEachTest" finished-at="2023-12-30T14:44:15 EST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterEachTest(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:59:44 EST" name="afterEachTest" finished-at="2024-01-21T13:59:44 EST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,18 +254,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=homeLoanValidationTest status=FAILURE method=HomeLoansTest.homeLoanValidationTest()[pri:0, instance:pages.HomeLoansTest@19932c16] output=[[ChromeDriver: chrome on windows (669ffae7cc0ba6c38c0883c85f2ae018)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]]>
+                <![CDATA[[TestResult name=homeLoanValidationTest status=SUCCESS method=HomeLoansTest.homeLoanValidationTest()[pri:0, instance:pages.HomeLoansTest@28dcca0c] output=[[ChromeDriver: chrome on windows (14275cfab185c474a68395566aa00bfc)] -> xpath: //span[text()='Home Loans']//parent::a[@id='navHomeLoans']]<---------> has been clicked<br>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:44:15 EST" name="tearUp" finished-at="2023-12-30T14:44:15 EST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:59:44 EST" name="tearUp" finished-at="2024-01-21T13:59:44 EST" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:pages.HomeLoansTest@19932c16]" started-at="2023-12-30T14:44:15 EST" name="publishReport" finished-at="2023-12-30T14:44:16 EST" duration-ms="516" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:pages.HomeLoansTest@28dcca0c]" started-at="2024-01-21T13:59:44 EST" name="publishReport" finished-at="2024-01-21T13:59:45 EST" duration-ms="449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->

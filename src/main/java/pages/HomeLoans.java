@@ -66,38 +66,38 @@ public class HomeLoans {
 	WebElement selectSr;
 	@FindBy(id = "phoneNumber")
 	WebElement phoneNumberr;
+	@FindBy(id = "phoneNumber_errorMessage")
+	WebElement phoneErrorMessage;
 
 	@FindBy(id = "phoneType")
 	WebElement selectPhoneType;
-	@FindBy(xpath = "//option[text()='Mobile']")
-	WebElement mobile;
+//	@FindBy(xpath = "//option[text()='Mobile']")
+//	WebElement mobile;
 	@FindBy(id = "email")
 	WebElement eMail;
-	
-	
+
 	@FindBy(id = "locationField")
 	WebElement locationFieldElement;
 	@FindBy(id = "streetNumber")
 	WebElement streetNumber;
-	
-	@FindBy(id="addressLineOne")
+	@FindBy(id = "locationField_errorMessage")
+	WebElement locationErrorMessage;
+
+	@FindBy(id = "addressLineOne")
 	WebElement addressLine1;
-	@FindBy(id="city")
+	@FindBy(id = "city")
 	WebElement city;
-	@FindBy(id="selectState")
+	@FindBy(id = "selectState")
 	WebElement selectState;
-	@FindBy(xpath="//option[text()='Florida']//parent::select[@id='selectState']")
+	@FindBy(xpath = "//option[text()='Florida']//parent::select[@id='selectState']")
 	WebElement florida;
-	@FindBy(id="zipcode")
+	@FindBy(id = "zipcode")
 	WebElement zipCode;
-	
-	
-	
-	
+
 	@FindBy(id = "differentPrimaryAndMailingAddress")
 	WebElement checkBoxOfMailingAddess;
-	@FindBy(id = "notUSCitizen")
-	WebElement notUSCitizenCheckBox;
+	@FindBy(xpath = "//input[@id='USCitizen']")
+	WebElement usCitizenCheckBox;
 	@FindBy(id = "residencyType")
 	WebElement residenceType;
 
@@ -111,6 +111,8 @@ public class HomeLoans {
 	WebElement h1BVisa;
 	@FindBy(id = "countryOfCitizenship")
 	WebElement countryOfCitizenship;
+	@FindBy (id="countryOfResidence")
+	WebElement residenceCountry;
 
 	@FindBy(xpath = "//option[text()='Bangladesh']//parent::select[@id='countryOfCitizenship']")
 	WebElement Bangladesh;
@@ -149,97 +151,81 @@ public class HomeLoans {
 		// validationOfHeader(homeMortageLoansHeader, "Home Mortgage Loans");
 		// validationOfSubHeader(homeMortageLoansSubHeader, "The perfect home starts
 		// with the right mortgage");
-		pause(3);
+		// pause(3);
 		elementDisplayed(applyNoow);
 		clickElement(applyNoow);
 		// verifyTextOfTheWebElement(applyNoow, "Apply now");
 
 		currentUrl(driver);
-		pause(3);
+		// pause(3);
 		elementDisplayed(iWantToBuyHome);
 		clickElement(iWantToBuyHome);
 
 		// verifyTextOfTheWebElement(iWantToBuyHome, null);
-		pause(3);
+		// pause(3);
 		currentUrl(driver);
 
 		clickElement(iAmReadyToApply);
 		pause(3);
 		clickElement(no);
-		pause(3);
+		// waitThenClick(driver,no);
+		// pause(3);
 		clickElement(continueButton);
 		currentUrl(driver);
 
 		// validationOfSubHeader(yourInformation, "Your information");
 		elementDisplayed(yourInformation);
-		pause(3);
+		// pause(3);
 	}
 
 	public void firstNameValidation() {
-		pause(2);
+		// pause(2);
 		verifyLengthOfTheFieldContent(firstNamee, "32");
 		// inputTextThenClickTab(firstNamee, "-/-/");
 		// verifyErrorMsgUnderTheField(firstNameErrorMessage, "Please enter your first
 		// name using only letters, apostrophes or hyphens.");
 
 		clearTextFromTheField(firstNamee);
-		pause(2);
+		// pause(2);
 		inputTextThenClickTab(firstNamee, "Dilshad");
-		pause(2);
+		// pause(2);
 		inputTextThenClickTab(middleNamee, "DAZ");
-		pause(3);
+		// pause(3);
 		inputTextThenClickTab(lastNamee, "Zannat");
-		pause(3);
+		// pause(3);
 		clickElement(select);
 		clickElement(selectSr);
-		pause(2);
-		clickElement(phoneNumberr);
-		clickElement(selectPhoneType);
-		clickElement(mobile);
-		pause(3);
+		// pause(2);
+		// clickElement(phoneNumberr);
+		inputText(phoneNumberr, "743090789");
+		// verifyErrorMsgUnderTheField(phoneErrorMessage, "Please enter a valid phone
+		// number.");
+//		clickElement(selectPhoneType);
+//		clickElement(mobile);
+		selectByVal(selectPhoneType, "CellularPhone");
+		// pause(3);
 		inputTextThenClickTab(eMail, "shshsh@gmail.com");
-		pause(2);
+		// pause(2);
 		inputText(locationFieldElement, "45 Southwest 9th Street");
-		pause(2);
-		inputTextThenClickTab(streetNumber, "45");
-		pause(2);
-		inputText(addressLine1, "Southwest 9th Street");
-		pause(2);
-		inputTextThenClickTab(city, "Miami");
-		pause(2);
-		clickElement(selectState);
-		clickElement(florida);
-		pause(2);
-		inputText(zipCode, "33130");
-		pause(2);
-		//waitThenClick(driver, checkBoxOfMailingAddess);
-		//pause(2);
-		waitThenClick(driver, notUSCitizenCheckBox);
-		pause(2);
-		clickElement(countryOfCitizenship);
-		clickElement(Bangladesh);
-		pause(2);
-		inputText(ssnSelect, "989-12-1234");
-		pause(2);
-		inputTextThenClickTab(dateOfBirth, "09/13/2000");
-		pause(2);
-		clickElement(yearInSchool);
-		clickElement(select18);
-		pause(2);
-		clickElement(maritalStatus);
-		clickElement(married);
-		pause(2);
-		waitThenClick(driver, dependenciesNo);
-		pause(2);
-		waitThenClick(driver, leaderOfficerCheckBox);
-		pause(2);
-		waitThenClick(driver, consentCheckBox);
-		pause(2);
+		keyPress("down", locationFieldElement);
+		keyPress("enter", locationFieldElement);
+		pause(3);
+		
+		selectByVal(residenceCountry, "US");
+
+		inputText(ssnSelect, "989121234");
+
+		inputTextThenClickTab(dateOfBirth, "09132000");
+
+		selectByVal(yearInSchool, "12");
+		selectByVal(maritalStatus, "Married");
+
+		clickElement(dependenciesNo);
+		pause(3);
+		clickElement(leaderOfficerCheckBox);
+		clickElement(consentCheckBox);
 		clickElement(saveAndContinue);
-		pause(2);
-		
-		
-		
+		System.out.println("*************************");
 	}
 
 }

@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import constants.Attribute;
@@ -206,5 +207,21 @@ public class CommonActions {
 			Assert.fail();
 		}
 
+	}
+	
+	
+	public static void selectByVal(WebElement element, String value) {
+		Select select = new Select(element); 
+		select.selectByValue(value);
+	}
+	
+	public static void keyPress(String key, WebElement element) {
+		
+		if(key.equals("tab")) element.sendKeys(Keys.TAB);
+		if(key.equals("left")) element.sendKeys(Keys.ARROW_LEFT);
+		if(key.equals("right")) element.sendKeys(Keys.ARROW_RIGHT);
+		if(key.equals("up")) element.sendKeys(Keys.ARROW_UP);
+		if(key.equals("down")) element.sendKeys(Keys.ARROW_DOWN);
+		if(key.equals("enter")) element.sendKeys(Keys.RETURN);
 	}
 }
